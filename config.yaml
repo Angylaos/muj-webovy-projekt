@@ -1,0 +1,19 @@
+title: Elf_s drop
+baseURL: https://xyz.netlify.com/
+languageCode: cs-cz
+publishDir: public
+
+menu:
+  main:
+    - name: Homepage
+      url: /
+      weight: 10
+    - name: Archive
+      identifier: post
+      url: /post/
+      weight: 20
+
+params:
+  description: Moje. Zmizte.
+  authors: elf
+
